@@ -1,0 +1,28 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Action": [
+          "sts:TagSession",
+          "sts:AssumeRoleWithWebIdentity"
+        ],
+        "Condition": {
+          "ForAllValues:StringEquals": {
+            "token.actions.githubusercontent.com:aud": "sts.amazonaws.com",
+            "token.actions.githubusercontent.com:iss": "http://token.actions.githubusercontent.com"
+          },
+          "StringLike": {
+            "token.actions.githubusercontent.com:sub": [
+                "repo:yhs88a/docker-images:*",
+                "repo:yhs88a/devcontainer:*"
+            ]
+          }
+        },
+        "Principal": {
+          "Federated": "arn:aws:iam::248189934904:oidc-provider/token.actions.githubusercontent.com"
+        },
+        "Sid": "GithubOidcAuth"
+      }
+    ]
+}
