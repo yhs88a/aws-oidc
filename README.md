@@ -1,5 +1,8 @@
 # aws-oidc
 
+[![terragrunt action](https://github.com/yhs88a/aws-oidc/actions/workflows/terragrunt.yml/badge.svg)](https://github.com/yhs88a/aws-oidc/actions/workflows/terragrunt.yml)
+![Licence: MIT](https://img.shields.io/github/license/yhs88a/aws-oidc)
+
 This repository provides a Terraform and Terragrunt setup for managing AWS infrastructure with OIDC authentication. It includes preconfigured modules and a Makefile with common commands for easy management.
 
 ## Getting Started
