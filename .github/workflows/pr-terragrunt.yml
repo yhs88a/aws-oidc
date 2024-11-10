@@ -50,4 +50,4 @@ jobs:
           TF_VERSION: ${{ env.TF_VERSION }}
           TG_VERSION: ${{ env.TG_VERSION }}
           tg_dir: ${{ env.working_dir }}
-          tg_command: "run-all plan --var-file=${{ github.ref_name }}.tfvars"
+          tg_command: "run-all plan --var-file=dev.tfvars"
