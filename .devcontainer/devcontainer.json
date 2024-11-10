@@ -1,5 +1,5 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
-// README at: https://github.com/yhs88a/devcontainer/tree/main/src/aws-oidc
+// README at: https://github.com/yhs88a/devcontainer
 {
     "name": "aws-oidc",
     "dockerComposeFile": [
