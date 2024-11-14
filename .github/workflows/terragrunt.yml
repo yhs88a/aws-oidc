@@ -17,7 +17,7 @@ env:
   TF_DYNAMODB_ENDPOINT: ${{ secrets.TF_DYNAMODB_ENDPOINT }}
   TF_VAR_CI_ENVIRONMENT_NAME: ${{ github.ref_name }}
   TF_VERSION: 1.9.8 # renovate: datasource=docker depName=hashicorp/terraform
-  TG_VERSION: 0.68.12 # renovate: datasource=github-tags depName=gruntwork-io/terragrunt
+  TG_VERSION: 0.68.13 # renovate: datasource=github-tags depName=gruntwork-io/terragrunt
   working_dir: "."
 
 jobs:
