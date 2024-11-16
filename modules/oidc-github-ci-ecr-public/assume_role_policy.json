@@ -15,7 +15,10 @@
           "StringLike": {
             "token.actions.githubusercontent.com:sub": [
                 "repo:yhs88a/docker-images:*",
-                "repo:yhs88a/devcontainer:*"
+                "repo:yhs88a/devcontainer:*",
+                "repo:yhs88a/ubuntu:*",
+                "repo:yhs88a/alpine:*",
+                "repo:yhs88a/alpine-ci:*",
             ]
           }
         },
