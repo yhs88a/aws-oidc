@@ -18,6 +18,21 @@ remote_state.tf
 # Built Visual Studio Code Extensions
 *.vsix
 
+# Global/Linux.gitignore
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
 # Global/Windows.gitignore
 # Windows thumbnail cache files
 Thumbs.db
