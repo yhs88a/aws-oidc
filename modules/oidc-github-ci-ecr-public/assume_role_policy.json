@@ -18,7 +18,7 @@
                 "repo:yhs88a/devcontainer:*",
                 "repo:yhs88a/ubuntu:*",
                 "repo:yhs88a/alpine:*",
-                "repo:yhs88a/alpine-ci:*",
+                "repo:yhs88a/alpine-ci:*"
             ]
           }
         },
